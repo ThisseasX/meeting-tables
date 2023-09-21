@@ -1,0 +1,28 @@
+.tableContainer {
+  position: relative;
+}
+
+.bookingCell {
+  padding: 0;
+}
+
+.booking {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  user-select: none;
+  /* +1px to account for the border */
+  width: 81px;
+  border: 1px solid black;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  &:hover {
+    background-color: rgb(214, 35, 35);
+  }
+}

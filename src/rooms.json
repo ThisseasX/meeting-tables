@@ -1,0 +1,218 @@
+[
+  {
+    "_id": {
+      "$oid": "650c024800bb7e3aac6969d3"
+    },
+    "name": "6A1R",
+    "floor": "6",
+    "capacity": 18,
+    "bookings": [],
+    "assets": {
+      "whiteBoard": false,
+      "opWalls": false,
+      "tv": false,
+      "projector": true,
+      "pcLab": false,
+      "macLab": false
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650c024800bb7e3aac6969d5"
+    },
+    "name": "6A1L",
+    "floor": "6",
+    "capacity": 18,
+    "bookings": [],
+    "assets": {
+      "whiteBoard": false,
+      "opWalls": false,
+      "tv": false,
+      "projector": false,
+      "pcLab": false,
+      "macLab": false
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650c024800bb7e3aac6969d4"
+    },
+    "name": "6A2M",
+    "floor": "6",
+    "capacity": 16,
+    "bookings": [
+      {
+        "roomId": {
+          "$oid": "650c024800bb7e3aac6969d4"
+        },
+        "purpose": "t",
+        "businessUnit": "",
+        "bookingEnd": {
+          "$date": "2023-09-22T07:30:00Z"
+        },
+        "bookingStart": {
+          "$date": "2023-09-22T05:00:00Z"
+        },
+        "duration": 2.5,
+        "startHour": 8,
+        "user": {
+          "$oid": "65080190578f212a24b86cd1"
+        },
+        "_id": {
+          "$oid": "650c05dcf4a7da1074bbf004"
+        }
+      },
+      {
+        "roomId": {
+          "$oid": "650c024800bb7e3aac6969d4"
+        },
+        "purpose": "t",
+        "businessUnit": "",
+        "bookingEnd": {
+          "$date": "2023-09-22T10:00:00Z"
+        },
+        "bookingStart": {
+          "$date": "2023-09-22T07:30:00Z"
+        },
+        "duration": 2.5,
+        "startHour": 10.5,
+        "user": {
+          "$oid": "65080190578f212a24b86cd1"
+        },
+        "_id": {
+          "$oid": "650c05dcf4a7da1074bbf005"
+        }
+      }
+    ],
+    "assets": {
+      "whiteBoard": false,
+      "opWalls": false,
+      "tv": false,
+      "projector": false,
+      "pcLab": false,
+      "macLab": false
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650c024800bb7e3aac6969d6"
+    },
+    "name": "Booth 6A7R",
+    "floor": "6",
+    "capacity": 18,
+    "bookings": [
+      {
+        "roomId": {
+          "$oid": "650c024800bb7e3aac6969d6"
+        },
+        "purpose": "w",
+        "businessUnit": "",
+        "bookingEnd": {
+          "$date": "2023-09-22T06:00:00Z"
+        },
+        "bookingStart": {
+          "$date": "2023-09-22T05:00:00Z"
+        },
+        "duration": 1,
+        "startHour": 8,
+        "user": {
+          "$oid": "65080190578f212a24b86cd1"
+        },
+        "_id": {
+          "$oid": "650c05aff4a7da1074bbf002"
+        }
+      }
+    ],
+    "assets": {
+      "whiteBoard": false,
+      "opWalls": false,
+      "tv": true,
+      "projector": false,
+      "pcLab": false,
+      "macLab": false
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650c024800bb7e3aac6969d8"
+    },
+    "name": "6A10L",
+    "floor": "6",
+    "capacity": 18,
+    "bookings": [
+      {
+        "roomId": {
+          "$oid": "650c024800bb7e3aac6969d8"
+        },
+        "purpose": "2",
+        "businessUnit": "",
+        "bookingEnd": {
+          "$date": "2023-09-22T05:30:00Z"
+        },
+        "bookingStart": {
+          "$date": "2023-09-22T05:00:00Z"
+        },
+        "duration": 0.5,
+        "startHour": 8,
+        "user": {
+          "$oid": "65080190578f212a24b86cd1"
+        },
+        "_id": {
+          "$oid": "650c05c0f4a7da1074bbf003"
+        }
+      },
+      {
+        "roomId": {
+          "$oid": "650c024800bb7e3aac6969d8"
+        },
+        "purpose": "2",
+        "businessUnit": "",
+        "bookingEnd": {
+          "$date": "2023-09-22T06:00:00Z"
+        },
+        "bookingStart": {
+          "$date": "2023-09-22T05:30:00Z"
+        },
+        "duration": 0.5,
+        "startHour": 8.5,
+        "user": {
+          "$oid": "65080190578f212a24b86cd1"
+        },
+        "_id": {
+          "$oid": "650c05c0f4a7da1074bbf004"
+        }
+      }
+    ],
+    "assets": {
+      "whiteBoard": false,
+      "opWalls": true,
+      "tv": false,
+      "projector": true,
+      "pcLab": false,
+      "macLab": false
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "650c024800bb7e3aac6969d7"
+    },
+    "name": "6A10M",
+    "floor": "6",
+    "capacity": 20,
+    "bookings": [],
+    "assets": {
+      "whiteBoard": false,
+      "opWalls": false,
+      "tv": true,
+      "projector": false,
+      "pcLab": false,
+      "macLab": false
+    },
+    "__v": 0
+  }
+]

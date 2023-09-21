@@ -1,0 +1,22 @@
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  width: 80px;
+  height: 40px;
+  padding: 8px;
+}

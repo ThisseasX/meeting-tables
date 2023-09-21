@@ -1,0 +1,34 @@
+.bookingCell {
+  padding: 0;
+}
+
+.bookingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.booking {
+  background-color: red;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  user-select: none;
+
+  &:hover {
+    background-color: rgb(214, 35, 35);
+  }
+}
+
+.bookingHalf {
+  flex: 0.5;
+
+  &:first-of-type {
+    border-bottom: 1px solid black;
+  }
+}
